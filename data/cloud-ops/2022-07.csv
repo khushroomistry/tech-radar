@@ -1,0 +1,23 @@
+title
+CLOUD OPERATIONS Tech Radar
+===
+date
+2022-07-01
+===
+quadrant,   alias
+q1,         langframe
+q2,         data
+q3,         infra
+q4,         techtools
+===
+quadrant,   title
+q1,         Languages and frameworks
+q2,         Platforms
+q3,         Techniques
+q4,         Tools
+===
+name,                       quadrant,        ring,   description
+Java,                       langframe,       Adopt,  Java is an Object oriented language
+Python 3,                   langframe,       Adopt,  Python
+Flask,                      langframe,       Adopt,
+FastApi,                    langframe,       Trial,
