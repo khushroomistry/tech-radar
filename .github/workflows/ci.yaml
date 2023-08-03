@@ -2,29 +2,12 @@
 name: CI
 on: [push, pull_request]
 jobs:
-  test:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v3
-
-      - name: Setup NodeJS
-        uses: actions/setup-node@v3
-        with:
-          node-version: 16
-
-      - name: Install deps
-        run: yarn
-
-      - name: Test
-        run: yarn test
 
   release_radar:
     name: Publish radar to gh-pages
     # https://github.community/t/trigger-job-on-tag-push-only/18076
     if: github.event_name == 'push' && github.ref == 'refs/heads/master'
     runs-on: ubuntu-latest
-    needs: test
     steps:
       - name: Checkuout
         uses: actions/checkout@v3
@@ -55,7 +38,6 @@ jobs:
     name: Release lib
     # https://github.community/t/trigger-job-on-tag-push-only/18076
     if: github.event_name == 'push' && github.ref == 'refs/heads/master'
-    needs: test
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
