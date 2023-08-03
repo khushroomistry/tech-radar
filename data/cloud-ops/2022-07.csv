@@ -8,7 +8,7 @@ quadrant,   alias
 q1,         langframe
 q2,         plat
 q3,         tech
-q4,         techtools
+q4,         tools
 ===
 quadrant,   title
 q1,         Languages and frameworks
@@ -19,7 +19,7 @@ q4,         Tools
 name,                       quadrant,        ring,   description
 Java,                       langframe,       Adopt,  Java is an Object oriented language
 Python 3,                   langframe,       Adopt,  Python
-Flask,                      langframe,       Adopt,
-FastApi,                    langframe,       Trial,
-NetApp,                     infra,           Trial,
-Puppet,                     plat,            Adopt, Puppet is a platform for VM management
+Flask,                      langframe,       Adopt,  Test
+FastApi,                    langframe,       Trial,  Test
+NetApp,                     infra,           Trial,  Test
+Puppet,                     plat,            Adopt,  Puppet is a platform for VM management
