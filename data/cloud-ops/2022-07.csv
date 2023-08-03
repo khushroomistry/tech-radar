@@ -21,5 +21,5 @@ Java,                       langframe,       Adopt,  Java is an Object oriented 
 Python 3,                   langframe,       Adopt,  Python
 Flask,                      langframe,       Adopt,  Test
 FastApi,                    langframe,       Trial,  Test
-NetApp,                     infra,           Trial,  Test
+NetApp,                     tech,           Trial,  Test
 Puppet,                     plat,            Adopt,  Puppet is a platform for VM management
