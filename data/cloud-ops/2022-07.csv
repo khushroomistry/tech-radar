@@ -6,8 +6,8 @@ date
 ===
 quadrant,   alias
 q1,         langframe
-q2,         data
-q3,         infra
+q2,         plat
+q3,         tech
 q4,         techtools
 ===
 quadrant,   title
@@ -21,3 +21,5 @@ Java,                       langframe,       Adopt,  Java is an Object oriented 
 Python 3,                   langframe,       Adopt,  Python
 Flask,                      langframe,       Adopt,
 FastApi,                    langframe,       Trial,
+NetApp,                     infra,           Trial,
+Puppet,                     plat,            Adopt, Puppet is a platform for VM management
